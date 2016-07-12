@@ -18,6 +18,12 @@ public class IndexController {
 		return "showMessage";
 	}
 	
+	@RequestMapping("/testPage")
+	public String testPage(Model model){
+		System.out.println("testPage");
+		return "testPage";
+	}
+	
 	@RequestMapping("/ajaxTest")
 	@ResponseBody
 	public Map<String,Object> ajaxTest(){
