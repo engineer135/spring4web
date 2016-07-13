@@ -13,6 +13,8 @@
 		<br/><br/>
 		<a href="testPage.do"><button type="button" class="btn btn-info">Test Page</button></a>
 		
+		수정 테스트
+		
 		<div id="testDiv"></div>
 	</body>
 	<script>
