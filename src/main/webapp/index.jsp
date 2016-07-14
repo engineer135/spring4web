@@ -12,6 +12,6 @@
 	</head> 
 	<body>
 		<c:url value="/showMessage.html" var="messageUrl" />
-		<a href="${messageUrl}">Click to enter</a>
+		<a href="${messageUrl}">Click to enter test 브랜치에서 수정해서 올려봅니다!</a>
 	</body>
 </html>
