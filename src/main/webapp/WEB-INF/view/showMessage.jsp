@@ -12,11 +12,6 @@
 		<a href="javascript:ajaxTest();"><button type="button" class="btn btn-success">Ajax Test</button></a>
 		<br/><br/>
 		<a href="testPage.do"><button type="button" class="btn btn-info">Test Page</button></a>
-		
-		수정 테스트
-		
-		222
-		
 		<div id="testDiv"></div>
 	</body>
 	<script>
