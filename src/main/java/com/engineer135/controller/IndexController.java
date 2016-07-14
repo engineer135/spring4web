@@ -18,6 +18,13 @@ public class IndexController {
 		return "showMessage";
 	}
 	
+	@RequestMapping("/showMessage2")
+	public String showMessage2(Model model){
+		System.out.println("이건 타나?");
+		model.addAttribute("message", "welcome spring4");
+		return "showMessage2";
+	}
+	
 	@RequestMapping("/testPage")
 	public String testPage(Model model){
 		System.out.println("testPage");
