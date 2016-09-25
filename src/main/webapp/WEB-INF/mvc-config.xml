@@ -28,4 +28,10 @@
 
 	<!-- <mvc:view-controller path="/" view-name="/showMessage"/> -->
 	
+	<!-- 
+		Rest 스타일의 url로 작업할때, servlet-mapping을 /*로 하는 경우 모든 요청이 dispatcherServlet으로 오는 문제 해결해준다.
+		토비의 스프링 626페이지 참조!
+	 -->
+	<mvc:default-servlet-handler/>
+	
 </beans>
